@@ -527,7 +527,10 @@ static const Rule rules[] = {
 	RULE(.wintype = WTYPE "SPLASH", .isfloating = 1)
 	RULE(.class = "librewolf", .tags = 1 << 0)
 	RULE(.class = "Binary Ninja", .tags = 1 << 1)
-	RULE(.class = "obsidian", .tags = 1 << 3)
+	RULE(.class = "obsidian", .tags = 1 << 5)
+	RULE(.class = "org.remmina.Remmina", .tags = 1 << 8)
+	RULE(.class = "mpv", .tags = 1 << 4)
+	RULE(.class = "Zathura", .tags = 1 << 3)
 	#if RENAMED_SCRATCHPADS_PATCH
 	RULE(.instance = "spterm", .scratchkey = 's', .isfloating = 1)
 	#elif SCRATCHPADS_PATCH
