@@ -525,7 +525,7 @@ static const Rule rules[] = {
 	RULE(.wintype = WTYPE "UTILITY", .isfloating = 1)
 	RULE(.wintype = WTYPE "TOOLBAR", .isfloating = 1)
 	RULE(.wintype = WTYPE "SPLASH", .isfloating = 1)
-	RULE(.class = "librewolf", .tags = 1 << 0)
+	RULE(.class = "Navigator", .tags = 1 << 0)
 	RULE(.class = "Binary Ninja", .tags = 1 << 1)
 	RULE(.class = "obsidian", .tags = 1 << 5)
 	RULE(.class = "org.remmina.Remmina", .tags = 1 << 8)
@@ -913,7 +913,7 @@ static const char *dmenucmd[] = {
 	NULL
 };
 static const char *termcmd[]  = { "st", NULL };
-static const char *firecmd[]  = { "librewolf", NULL };
+static const char *firecmd[]  = { "firefox", NULL };
 static const char *powercmd[]  = { "minipm", NULL };
 static const char *dictcmd[]  = { "python", "/home/ryc/.scripts/tkdict.py", NULL };
 //static const char *musicmd[]  = { "sh", "-c", "$HOME/.scripts/startmusic", NULL };
